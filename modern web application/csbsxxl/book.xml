@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="addstyle.xsl"?>
+<class>
+    <students>
+        <student>
+            <firstname>Pratik</firstname>
+            <lastname>Bothra</lastname>
+            <state>Rajasthan</state>
+        </student>
+        <student>
+            <firstname>Aditya</firstname>
+            <lastname>Rajesh</lastname>
+            <state>Maharashtra</state>
+        </student>
+        <student>
+            <firstname>Yaksh</firstname>
+            <lastname>Gupta</lastname>
+            <state>Gujarat</state>
+        </student>
+    </students>
+</class>

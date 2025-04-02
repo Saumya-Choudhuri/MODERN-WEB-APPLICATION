@@ -1,0 +1,5 @@
+mvm_ pey_mvmv(tis then);
+text="python is awesome"
+new_text= text.split()
+print(new_text)
+##this is the man function that all the stars of the close sets

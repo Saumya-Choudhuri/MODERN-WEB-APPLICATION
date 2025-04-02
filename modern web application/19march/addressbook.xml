@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd">
+<addressbook>
+    <contact>
+        <name>Modi</name>
+        <address street="Gandhi street" state="Gujarat" phone="123-456-7890" />
+    </contact>
+    <contact>
+        <name>Amith Sha</name>
+        <address street="Rajaji street" state="Uttar Pradesh" phone="987-654-3210" />
+    </contact>
+</addressbook>

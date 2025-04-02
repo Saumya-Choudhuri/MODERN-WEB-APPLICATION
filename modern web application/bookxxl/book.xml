@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstyle.xsl"?>
+<library>
+    <books>
+        <book>
+            <title>the creator</title>
+            <publisher>HarperCollins</publisher>
+            <isbn>12345678</isbn>
+            <price>1626</price>
+        </book>
+        <book>
+            <title>descrimination</title>
+            <publisher>Penguin</publisher>
+            <isbn>164764367</isbn>
+            <price>4862</price>
+        </book>
+        <book>
+            <title>Work title</title>
+            <publisher>Grand Central</publisher>
+            <isbn>9721563781256</isbn>
+            <price>520</price>
+        </book>
+        <book>
+            <title>The Psychology of Money</title>
+            <publisher>Harriman House</publisher>
+            <isbn>98634893216489</isbn>
+            <price>86283</price>
+        </book>
+        <book>
+            <title>Rich Dad Poor Dad</title>
+            <publisher>Plata Publishing</publisher>
+            <isbn>9767864236</isbn>
+            <price>3503</price>
+        </book>
+        <book>
+            <title>Fast and Slow</title>
+            <publisher>hadid publish</publisher>
+            <isbn>8236489827389</isbn>
+            <price>4804</price>
+        </book>
+        <book>
+            <title>king of business</title>
+            <publisher>Crown Business</publisher>
+            <isbn>38946128976</isbn>
+            <price>5503</price>
+        </book>
+        <book>
+            <title>shiva</title>
+            <publisher>holi </publisher>
+            <isbn>2639169612739172</isbn>
+            <price>5002</price>
+        </book>
+        <book>
+            <title>Cracking Interview</title>
+            <publisher>extyreme</publisher>
+            <isbn>369846198476</isbn>
+            <price>710</price>
+        </book>
+        <book>
+            <title>hall of frame</title>
+            <publisher>DJ Hall</publisher>
+            <isbn>83789127489127</isbn>
+            <price>810</price>
+        </book>
+    </books>
+</library>

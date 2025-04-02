@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Tech News</title>
+        <link>https://ndtv.com</link>
+        <description>Latest technology updates</description>
+
+        <item>
+            <title>New AI Model Released</title>
+            <link>https://ndtv.com</link>
+            <description>Details about the latest AI model.</description>
+        </item>
+    </channel>
+</rss>

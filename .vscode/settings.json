@@ -1,0 +1,20 @@
+{
+    "livePreview.defaultPreviewPath": "/.vscode/HTML/PinballXD.html",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL DBMS Local",
+            "database": "demo",
+            "username": "root",
+            "password": "my@udiSaCh01",
+            "connectionTimeout": 30
+        }
+    ]
+}

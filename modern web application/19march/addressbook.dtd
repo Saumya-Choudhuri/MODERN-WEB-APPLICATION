@@ -1,0 +1,10 @@
+<!DOCTYPE addressbook [
+    <!ELEMENT addressbook (contact+)>
+    <!ELEMENT contact (name, address)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address EMPTY>
+    <!ATTLIST address
+        street CDATA #REQUIRED
+        state CDATA #REQUIRED
+        phone CDATA #REQUIRED>
+]>

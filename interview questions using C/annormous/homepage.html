@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Feed Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            background-color: #f3f2ef;
+            padding: 20px;
+            gap: 20px;
+        }
+        .sidebar, .trending, .main-content {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .sidebar, .trending {
+            width: 25%;
+        }
+        .sidebar:hover, .trending:hover, .main-content:hover {
+            transform: scale(1.02);
+        }
+        .main-content {
+            flex: 1;
+        }
+        .post {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            background: #fafafa;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+        h3 {
+            color: #0073b1;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Profile</h3>
+        <p><strong>Saumya Choudhuri</strong></p>
+        <p>Student @ Tata Consultancy Services</p>
+    </div>
+    <div class="main-content">
+        <h3>Feed</h3>
+        <div class="post">
+            <p><strong>Noor Nabeela K</strong></p>
+            <p>What happens when you mix Python, ML, and a room full of curious minds?</p>
+        </div>
+        <div class="post">
+            <p><strong>John Doe</strong></p>
+            <p>Excited to share my new project on AI-driven automation!</p>
+        </div>
+    </div>
+    <div class="trending">
+        <h3>Trending Now</h3>
+        <ul>
+            <li>SpiceJet profitable first time in 10 years</li>
+            <li>APAC leads in AI adoption</li>
+            <li>Globetrotting gets costlier</li>
+        </ul>
+    </div>
+</body>
+</html>
